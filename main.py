@@ -34,4 +34,5 @@ def on_pin_pressed_p0():
     music.play_tone(294, music.beat(BeatFraction.WHOLE))
     music.play_tone(262, music.beat(BeatFraction.DOUBLE))
     music.rest(music.beat(BeatFraction.BREVE))
+    
 input.on_pin_pressed(TouchPin.P0, on_pin_pressed_p0)
